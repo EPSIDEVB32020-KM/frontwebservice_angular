@@ -2,9 +2,9 @@
 ##### The front webpage of our project in angular
 
 ## Les prérequis
-#### Lancer le projet eureka server qui est le repository registry sur intelliJ
-#### Lancer le gatewaywebservice qui est rattaché au registry, le repository nommé gatewayservice sur intelliJ
-#### Lancer le projet webservicejpa qui est le repository webservicejpa pour l'utilisation du webservice en JPA(Java Persistence Api) sur intelliJ
+#### Lancer le projet eureka server qui est le repository registry sur intelliJ(Complet)
+#### Lancer le gatewaywebservice qui est rattaché au registry, le repository nommé gatewayservice sur intelliJ(Complet)
+#### Lancer le projet webservicejpa qui est le repository webservicejpa pour l'utilisation du webservice en JPA(Java Persistence Api) sur intelliJ(Complet)
 #### Sur côté front avant on a utilisé le frontwebservice(repository supprimé) mais après au final on a utiliser le frontwebservice_angular(repository) sur côte front qui utilise angular
 
 ## Les fonctionnalités présent dans ce front angular
