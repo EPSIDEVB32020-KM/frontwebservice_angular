@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\card-detail",
+    "\\src\\app\\personne-detail"
   ],
-  "SelectedNode": "\\proxy.conf.json",
+  "SelectedNode": "\\src\\app\\card-detail\\card-detail.component.html",
   "PreviewInSolutionExplorer": false
 }
