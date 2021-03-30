@@ -21,9 +21,6 @@
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Nom</th>
-      <th scope="col">Location</th>
-      <th scope="col">Date de début</th>
-      <th scope="col">Date de fin</th>
       <th scope="col">Action</th>
     </tr>
   </thead>
@@ -31,9 +28,6 @@
     <tr *ngFor="let person of persons | async">
       <th scope="row">{{person.id}}</th>
       <td>{{person.name}}</td>
-      <td>{{ person.rents.length == 0 ? "Non" : "Oui" }}</td>
-      <td>{{ person.rents.length == 1 ? person.rents[0].beginRent : "Null" }}</td>
-      <td>{{ person.rents.length == 1 ? person.rents[0].endRent : "Null" }}</td>
       <td><button (click)="supprimer(person.id)" type="button" class="btn btn-danger">Supprimer</button></td>
     </tr>
   </tbody>
